@@ -5,7 +5,7 @@ metadata:
   labels:
     run: kibana
   name: kibana
-  namespace: inmetrics
+  namespace: machina
 spec:
   progressDeadlineSeconds: 2147483647
   replicas: 1

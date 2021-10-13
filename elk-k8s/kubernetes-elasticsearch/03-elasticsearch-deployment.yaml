@@ -5,7 +5,7 @@ metadata:
   labels:
     component: elasticsearch
   name: elasticsearch
-  namespace: inmetrics
+  namespace: machina
 spec:
   progressDeadlineSeconds: 2147483647
   replicas: 1

@@ -3,7 +3,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: elasticsearch
-  namespace: inmetrics
+  namespace: machina
   labels:
     service: elasticsearch
 spec:

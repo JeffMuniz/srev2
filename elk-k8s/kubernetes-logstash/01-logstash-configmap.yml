@@ -3,7 +3,7 @@ apiVersion: v1
 kind: ConfigMap
 metadata:
   name: logstash-config
-  namespace: inmetrics
+  namespace: machina
   labels:
     task: logging
     k8s-app: logstash
@@ -29,7 +29,7 @@ data:
   TCP-RAW-FILEBEAT.conf: "
    input {
      kafka {
-     bootstrap_servers => \"bootstrap.inmetrics:9092\"
+     bootstrap_servers => \"bootstrap.machina:9092\"
      topics_pattern => \"TCP-RAW-FILEBEAT\"
      type => \"tcp-raw-filebeat\"
      group_id => \"logstash-filebeat\"
@@ -56,7 +56,7 @@ data:
   TCP-RAW-PROMETHEUS.conf: "
    input {
      kafka {
-     bootstrap_servers => \"bootstrap.inmetrics:9092\"
+     bootstrap_servers => \"bootstrap.machina:9092\"
      topics_pattern => \"TCP-RAW-PROMETHEUS\"
      type => \"tcp-raw-prometheus\"
      group_id => \"logstash-prometheus\"

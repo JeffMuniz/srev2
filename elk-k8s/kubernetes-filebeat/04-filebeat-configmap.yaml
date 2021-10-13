@@ -32,11 +32,11 @@ data:
 
     #processors:
     #output.logstash:
-    #  hosts: ["logstash.inmetrics:5044"]
+    #  hosts: ["logstash.machina:5044"]
     
     processors:
     output.kafka:
-      hosts: ["bootstrap.inmetrics:9092"]
+      hosts: ["bootstrap.machina:9092"]
       topic: 'TCP-RAW-FILEBEAT'
       partition.round_robin:
       reachable_only: false

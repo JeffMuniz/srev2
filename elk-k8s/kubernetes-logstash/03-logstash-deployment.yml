@@ -6,7 +6,7 @@ metadata:
     k8s-app: logstash
     task: logging
   name: logging-logstash
-  namespace: inmetrics
+  namespace: machina
 spec:
   progressDeadlineSeconds: 2147483647
   replicas: 1
