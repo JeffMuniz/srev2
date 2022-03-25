@@ -194,7 +194,7 @@
         "fileset.name": "eve",
         "input.type": "log",
         "log.offset": 2347,
-        "network.community_id": "1:pC3b0nBNCU4LxSue53drHp4b4cs=",
+        "network.community_id": "1:pC3b0CRIAR-TOKENCU4LxSue53drHp4b4cs=",
         "network.transport": "udp",
         "service.type": "suricata",
         "source.address": "192.168.86.1",

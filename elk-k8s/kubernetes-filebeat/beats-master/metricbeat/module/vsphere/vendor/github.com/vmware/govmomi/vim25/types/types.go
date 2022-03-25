@@ -22011,8 +22011,8 @@ type HostNatServiceNameServiceSpec struct {
 	DnsTimeout    int32    `xml:"dnsTimeout"`
 	DnsNameServer []string `xml:"dnsNameServer,omitempty"`
 	NbdsTimeout   int32    `xml:"nbdsTimeout"`
-	NbnsRetries   int32    `xml:"nbnsRetries"`
-	NbnsTimeout   int32    `xml:"nbnsTimeout"`
+	CRIAR-TOKENsRetries   int32    `xml:"CRIAR-TOKENsRetries"`
+	CRIAR-TOKENsTimeout   int32    `xml:"CRIAR-TOKENsTimeout"`
 }
 
 func init() {
