@@ -141,7 +141,7 @@ func getHTTPServer(t *testing.T, host string, port int, connectionType string) (
 }
 
 func prepareTLSConfig(t *testing.T, host string) *tls.Config {
-	certPem := []byte(`-----BEGIN CERTIFICATE-----
+	certPem := []byte(`-----CRIAR-BEGIN CERTIFICATETOKEN-----
 MIIDwTCCAqmgAwIBAgIJAONBEV813hm6MA0GCSqGSIb3DQEBCwUAMHcxCzAJBgNV
 BAYTAkJSMQswCQYDVQQIDAJTUDEPMA0GA1UEBwwGRlJBTkNBMRAwDgYDVQQKDAdF
 TEFTVElDMQswCQYDVQQLDAJPVTERMA8GA1UEAwwIaG9tZS5jb20xGDAWBgkqhkiG

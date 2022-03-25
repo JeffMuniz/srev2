@@ -34,7 +34,7 @@ func ReadCertificate(inPath string) *x509.Certificate {
 		panic("File read failed!")
 	}
 	var textData string = string(data)
-	if strings.Contains(textData, "-BEGIN CERTIFICATE-") {
+	if strings.Contains(textData, "-CRIAR-BEGIN CERTIFICATETOKEN-") {
 		block, _ := pem.Decode(data)
 		if block == nil {
 			panic("PEM decode failed!")

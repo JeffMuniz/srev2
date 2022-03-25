@@ -367,7 +367,7 @@ func TestCertificates(t *testing.T) {
 		obj, err := certMap.GetValue("raw")
 		assert.NoError(t, err, logStr)
 		cert := obj.(string)
-		assert.True(t, strings.HasPrefix(cert, "-----BEGIN CERTIFICATE-----\n"), logStr)
+		assert.True(t, strings.HasPrefix(cert, "-----CRIAR-BEGIN CERTIFICATETOKEN-----\n"), logStr)
 		assert.True(t, strings.HasSuffix(cert, "-----END CERTIFICATE-----\n"), logStr)
 		block, rest := pem.Decode([]byte(cert))
 		assert.Equal(t, block.Type, "CERTIFICATE", logStr)
