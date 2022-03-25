@@ -157,7 +157,7 @@
         "traefik.access.frontend_name": "Host-api-wearerealitygames-com-2",
         "traefik.access.request_count": 623112,
         "traefik.access.user_identifier": "-",
-        "url.original": "/assets/52f8f2e711d235d76044799e/owners?oauth_token=ya29.GltABOXd_gtG-XVvYX2YhxXJiXVvbHRMXn9fbzc_mDfl2rDhqK0CrAlwuwwRWnNnEaMDwkmyI7-QGbRSB0Hzje2cc__FjTQ1iuiYTSIBaIPfxSWip5jx6zqvsVVo",
+        "url.original": "/assets/52f8f2e711d235d76044799e/owners?oauth_token=seu-token",
         "user.name": "-",
         "user_agent.device.name": "Generic Smartphone",
         "user_agent.name": "Other",
